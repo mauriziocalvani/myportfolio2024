@@ -3,6 +3,7 @@ var scroll_pixel_limit = 1000;
 var scrollUpSpeed = 1500;
 
 $(document).ready(function () {
+    alert('test from Git Hub');
     var contact_form_text_field = $(".text-field");
     var thumb_container = $(".thumb-container");
     // vars for the read more / less logic on the product pages
