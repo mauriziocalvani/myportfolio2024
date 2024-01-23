@@ -73,11 +73,11 @@ $(window).on('load', function(){
     // When in the home page it overlaps the projects pages,
     // the cursor big has to disappear
     $(".scroll-top-btn").on("mouseover", function (event) {
-		$(".wrapper-cursor.big").css("display","none");
+		$(".wrapper-cursor.big").css("opacity","0");
     });
 
     $(".scroll-top-btn").on("mouseout", function (event) {
-		$(".wrapper-cursor.big").css("display","block");
+		$(".wrapper-cursor.big").css("opacity","1");
     });
 })
 
