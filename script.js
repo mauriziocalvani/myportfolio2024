@@ -60,13 +60,24 @@ $(document).ready(function () {
 });
 
 $(window).on('load', function(){
-		// check for the top position of the page and change 
+	// check for the top position of the page and change 
     // the scroll up btn accordingly
     var scrollPosition = $(window).scrollTop();
     changeSlideUpColor(scrollPosition);
+
     $(".scroll-top-btn").on("click", function (event) {
     	event.preventDefault();
-			$("html, body").animate({ scrollTop: 0 }, scrollUpSpeed);
+		$("html, body").animate({ scrollTop: 0 }, scrollUpSpeed);
+    });
+    // addded mouseover and mouseout events on the scrollup btn.
+    // When in the home page it overlaps the projects pages,
+    // the cursor big has to disappear
+    $(".scroll-top-btn").on("mouseover", function (event) {
+		$(".wrapper-cursor.big").css("display","none");
+    });
+
+    $(".scroll-top-btn").on("mouseout", function (event) {
+		$(".wrapper-cursor.big").css("display","block");
     });
 })
 
