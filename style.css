@@ -1,0 +1,26 @@
+*::selection { 
+	background: #66ca43; 
+	color: #fff; 
+} 
+.cursor.open-project{
+width:120px!important;
+height:120px!important;
+}
+.navbar{
+z-index:87!important;
+}
+
+.get-in-touch-text {
+  display: inline-block;
+  position: relative;
+}
+.mega-menu-link {
+  display: inline-block;
+  position: relative;
+}
+
+.mega-menu-link:hover{
+	text-decoration:underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset:2px;
+}
