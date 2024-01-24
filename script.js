@@ -58,11 +58,6 @@ $(document).ready(function () {
             }
         });
     });
-    var hashId = window.location.hash;
-    if (hashId.length > 1){
-        console.log("in the ready listener and hashId = " + hashId)
-        goToAnchor(hashId,0);
-    }
 });
 
 $(window).on('load', function(event){
