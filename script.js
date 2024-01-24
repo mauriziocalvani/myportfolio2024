@@ -2,6 +2,8 @@
 var scroll_pixel_limit = 1000;
 // Time the pages need to scroll up, after having clicked on the up arrow btn
 var scrollUpSpeed = 1500;
+// Margin top to consider when window scrolls to a specific anchor
+var margin_top_anchor_link = 48;
 
 $(document).ready(function () {
     var contact_form_text_field = $(".text-field");
@@ -47,7 +49,7 @@ $(document).ready(function () {
         if (read_less.length > 0) {
             cute_text_height = container_cut_text_height;
         }
-        $(".container-cut-text").animate({ height: cute_text_height + "px" }, 300, function () {
+        $(".container-cut-text").animate({ height: cute_text_height + "px" }, 300, "easeOutQuint", function () {
             // Animation complete.
             if (read_less.length > 0) {
                 read_more_link.removeClass("read-less");
@@ -68,7 +70,7 @@ $(window).on('load', function(event){
 
     $(".scroll-top-btn").on("click", function (event) {
     	event.preventDefault();
-		$("html, body").animate({ scrollTop: 0 }, scrollUpSpeed);
+		$("html, body").animate({ scrollTop: 0 }, scrollUpSpeed, "easeOutQuint");
     });
     // addded mouseover and mouseout events on the scrollup btn.
     // When in the home page it overlaps the projects pages,
@@ -80,12 +82,19 @@ $(window).on('load', function(event){
     $(".scroll-top-btn").on("mouseout", function (event) {
 		$(".wrapper-cursor.big").css("opacity","1");
     });
-    console.log("pageshow dentro on load");
-    scrollToAnchor(event);
+    
+    var elId = window.location.hash;
+    if (elId.length > 1){
+        scrollToAnchor(elId,margin_top_anchor_link);
+    }
 })
 
-// pageshow fires after load and on Back/Forward
-window.addEventListener('pageshow', scrollToAnchor);
+function goToAnchor(id_sez,margin_top){
+    var scrollTopPx= (jQuery(id_sez).offset().top-margin_top)+'px';
+    jQuery('html,body').animate({
+        scrollTop: scrollTopPx
+    }, 1500, "easeOutQuint");
+}
 
 /* Scroll to anchor */
 function scrollToAnchor(e){
