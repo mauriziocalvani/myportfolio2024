@@ -81,9 +81,10 @@ $(window).on('load', function(event){
 		$(".wrapper-cursor.big").css("opacity","1");
     });
     
-    var elId = window.location.hash;
-    if (elId.length > 1){
-        goToAnchor(elId,0);
+    var hashId = window.location.hash;
+    if (hashId.length > 1){
+        alert("hashId = " + hashId)
+        goToAnchor(hashId,0);
     }
 })
 
