@@ -71,7 +71,7 @@ function pgshow(e){
 // pageshow fires after load and on Back/Forward
 window.addEventListener('pageshow', pgshow);
 
-$(window).on('load', function(){
+$(window).on('load', function(event){
 	// check for the top position of the page and change 
     // the scroll up btn accordingly
     var scrollPosition = $(window).scrollTop();
@@ -91,6 +91,8 @@ $(window).on('load', function(){
     $(".scroll-top-btn").on("mouseout", function (event) {
 		$(".wrapper-cursor.big").css("opacity","1");
     });
+    console.log("pageshow dentro on load");
+    pageshow(event);
 })
 
 $(window).scroll(function () {
