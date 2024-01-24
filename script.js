@@ -83,7 +83,10 @@ $(window).on('load', function(event){
     
     var elId = window.location.hash;
     if (elId.length > 1){
-        goToAnchor(elId,margin_top_anchor_link);
+        if ( window.location.pathname == '/' )
+            goToAnchor(elId,48);
+        else
+            goToAnchor(elId,0);
     }
 })
 
