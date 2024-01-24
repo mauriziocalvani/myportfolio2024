@@ -90,6 +90,7 @@ $(window).on('load', function(event){
 })
 
 function goToAnchor(elId,margin_top){
+    console.log("goToAnchor e elId = " + elId + " e margin_top = " + margin_top);
     var scrollTopPx= (jQuery(elId).offset().top-margin_top)+'px';
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
