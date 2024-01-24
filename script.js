@@ -82,7 +82,6 @@ $(window).on('load', function(event){
     });
     
     var elId = window.location.hash;
-    $(".navigation-items").css("transform","none");
     if (elId.length > 1){
         goToAnchor(elId,0);
     }
@@ -92,7 +91,9 @@ function goToAnchor(elId,margin_top_anchor_link){
     var scrollTopPx= jQuery(elId).position().top-margin_top_anchor_link+'px';
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
-    }, 1500, "easeOutQuint");
+    }, 1500, "easeOutQuint",function(){
+        $(".navigation-items").css("transform","none");
+    });
 }
 
 $(window).scroll(function () {
