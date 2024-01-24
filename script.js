@@ -60,10 +60,6 @@ $(document).ready(function () {
     });
 });
 
-
-// pageshow fires after load and on Back/Forward
-window.addEventListener('pageshow', pgshow);
-
 $(window).on('load', function(event){
 	// check for the top position of the page and change 
     // the scroll up btn accordingly
@@ -87,6 +83,9 @@ $(window).on('load', function(event){
     console.log("pageshow dentro on load");
     scrollToAnchor(event);
 })
+
+// pageshow fires after load and on Back/Forward
+window.addEventListener('pageshow', scrollToAnchor);
 
 /* Scroll to anchor */
 function scrollToAnchor(e){
