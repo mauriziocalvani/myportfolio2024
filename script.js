@@ -1,6 +1,6 @@
 // pixels scroll limit to change the scroll up button color
 var scroll_pixel_limit = 1000;
-// Time the pages needs to scroll up, after havoing clicked on the up arrow btn
+// Time the pages need to scroll up, after having clicked on the up arrow btn
 var scrollUpSpeed = 1500;
 
 $(document).ready(function () {
