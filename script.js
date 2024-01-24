@@ -85,25 +85,15 @@ $(window).on('load', function(event){
     
     var elId = window.location.hash;
     if (elId.length > 1){
-        scrollToAnchor(elId,margin_top_anchor_link);
+        goToAnchor(elId,margin_top_anchor_link);
     }
 })
 
-function goToAnchor(id_sez,margin_top){
-    var scrollTopPx= (jQuery(id_sez).offset().top-margin_top)+'px';
+function goToAnchor(elId,margin_top){
+    var scrollTopPx= (jQuery(elId).offset().top-margin_top)+'px';
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
     }, 1500, "easeOutQuint");
-}
-
-/* Scroll to anchor */
-function scrollToAnchor(e){
-    var elId = window.location.hash;
-    if (elId.length > 1){
-        el = document.getElementById(elId.substr(1));
-        console.log("el = " + el + " and elId = " + elId);
-        if (el) el.scrollIntoView(true);
-    }
 }
 
 $(window).scroll(function () {
