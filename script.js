@@ -89,8 +89,9 @@ $(window).on('load', function(event){
     }
 })
 
-function goToAnchor(elId,margin_top){
-    var scrollTopPx= jQuery(elId).position().top+margin_top+'px';
+function goToAnchor(elId,margin_top_anchor_link){
+    console.log("goToAnchor e elId = " + elId + " e margin_top_anchor_link = " + margin_top_anchor_link + "jQuery(elId).position().top = " + jQuery(elId).position().top);
+    var scrollTopPx= jQuery(elId).position().top+margin_top_anchor_link+'px';
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
     }, 1500, "easeOutQuint");
