@@ -88,8 +88,8 @@ $(window).on('load', function(event){
     }
 })
 
-function goToAnchor(elId,margin_top_anchor_link){
-    var scrollTopPx= jQuery(elId).position().top-margin_top_anchor_link+'px';
+function goToAnchor(hashId,margin_top_anchor_link){
+    var scrollTopPx= jQuery(hashId).position().top-margin_top_anchor_link+'px';
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
     }, 1500, "easeOutQuint",function(){
