@@ -87,6 +87,9 @@ $(window).on('load', function(event){
     if (elId.length > 1){
         goToAnchor(elId,margin_top_anchor_link);
     }
+
+    console.log("initially skills top position is = " + jQuery("#skills").position().top);
+
 })
 
 function goToAnchor(elId,margin_top_anchor_link){
