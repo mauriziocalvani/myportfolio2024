@@ -92,6 +92,7 @@ function scrollToAnchor(e){
     var elId = window.location.hash;
     if (elId.length > 1){
         el = document.getElementById(elId.substr(1));
+        console.log("el = " + el);
         if (el) el.scrollIntoView(true);
     }
 }
