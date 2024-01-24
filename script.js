@@ -83,7 +83,7 @@ $(window).on('load', function(event){
     
     var hashId = window.location.hash;
     if (hashId.length > 1){
-        alert("hashId = " + hashId)
+        console("hashId = " + hashId)
         goToAnchor(hashId,0);
     }
 })
