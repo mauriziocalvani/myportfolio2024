@@ -94,7 +94,7 @@ function goToAnchor(elId,margin_top){
     var scrollTopPx= jQuery(elId).position().top+margin_top+'px';
     console.log("scrollTopPx ok = " + scrollTopPx)
     jQuery('html,body').animate({
-        scrollTop: scrollTopPx
+        scrollTop: 1500
     }, 1500, "easeOutQuint");
 }
 
