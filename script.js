@@ -82,7 +82,7 @@ $(window).on('load', function(event){
     });
     
     var elId = window.location.hash;
-    $(".navigation-items").css("transform","translate3d(0px, 0, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);")
+    $(".navigation-items").css("transform","none");
     if (elId.length > 1){
         goToAnchor(elId,0);
     }
