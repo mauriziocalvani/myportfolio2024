@@ -90,11 +90,9 @@ $(window).on('load', function(event){
 })
 
 function goToAnchor(elId,margin_top){
-    console.log("goToAnchor e elId = " + elId + " e margin_top = " + margin_top + "jQuery(elId).position().top = " + jQuery(elId).position().top);
     var scrollTopPx= jQuery(elId).position().top+margin_top+'px';
-    console.log("scrollTopPx ok = " + scrollTopPx)
     jQuery('html,body').animate({
-        scrollTop: 1500
+        scrollTop: scrollTopPx
     }, 1500, "easeOutQuint");
 }
 
