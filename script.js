@@ -2,8 +2,6 @@
 var scroll_pixel_limit = 1000;
 // Time the pages need to scroll up, after having clicked on the up arrow btn
 var scrollUpSpeed = 1500;
-// Margin top to consider when window scrolls to a specific anchor
-var margin_top_anchor_link = 48;
 
 $(document).ready(function () {
     var contact_form_text_field = $(".text-field");
@@ -90,7 +88,7 @@ $(window).on('load', function(event){
 })
 
 function goToAnchor(elId,margin_top_anchor_link){
-    var scrollTopPx= jQuery(elId).position().top-margin_top_anchor_link+'px';
+    var scrollTopPx= jQuery(elId).position().top+'px';
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
     }, 1500, "easeOutQuint");
