@@ -60,6 +60,17 @@ $(document).ready(function () {
     });
 });
 
+/* Scroll to anchor */
+function pgshow(e){
+    var elId = window.location.hash;
+    if (elId.length > 1){
+        el = document.getElementById(elId.substr(1));
+        if (el) el.scrollIntoView(true);
+    }
+}
+// pageshow fires after load and on Back/Forward
+window.addEventListener('pageshow', pgshow);
+
 $(window).on('load', function(){
 	// check for the top position of the page and change 
     // the scroll up btn accordingly
