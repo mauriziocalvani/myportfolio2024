@@ -1,10 +1,10 @@
 window.CookieConsent.init({
     theme: {
-      barColor: '#353A42',
+      barColor: '#333',
       barTextColor: '#FFF',
-      barMainButtonColor: '#FFF',
-      barMainButtonTextColor: '#353A42',
-      modalMainButtonColor: '#353A42',
+      barMainButtonColor: '##66ca43',
+      barMainButtonTextColor: '#fff',
+      modalMainButtonColor: '##66ca43',
       modalMainButtonTextColor: '#FFF',
     },
     language: {
@@ -13,7 +13,7 @@ window.CookieConsent.init({
         en: {
             barMainText: 'We use cookies to improve your online experience and to analyze site traffic. For more information, please see the "Cookies" section of our ',
             barPrivacyLinkText: 'Privacy Policy.',
-            barPrivacyLink: '/privacy-policy#Cookies5',
+            barPrivacyLink: ' https://assets-global.website-files.com/65ae3ea9c2b3ea1f578ef324/65b257a6c0a9d325aa120de0_mauriziocalvani-privacy-policy-2024.pdf',
             barAdditionalText: ' By clicking "Accept All Cookies" you are consenting to our use of cookies. You can change your cookie settings or withdraw your consent any time by clicking on "Cookie Settings" below.',
             barLinkSetting: 'Cookie Settings',
             barBtnAcceptAll: 'Accept All Cookies',
