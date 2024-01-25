@@ -89,3 +89,7 @@ a:hover {
   font-size: 0.85em!important;
   padding-left: 2px!important;
 }
+
+#cconsent-modal .ccm__content > .ccm__content__body .ccm__tab-content p {
+  font-size: 14px!important;
+}

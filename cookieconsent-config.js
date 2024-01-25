@@ -90,7 +90,7 @@ window.CookieConsent.init({
         language: {
           locale: {
             en: {
-              name: 'Hubspot',
+              name: '',
             }
           }
         }
@@ -108,12 +108,12 @@ window.CookieConsent.init({
         language: {
           locale: {
             en: {
-              name: 'Google Analytics'
+              name: ''
             }
           }
         }
       },
-      cloudflare: {
+      webflow: {
         category: 'essential',
         type: 'localcookie',
         search: 'localcookie',
@@ -126,7 +126,7 @@ window.CookieConsent.init({
         language: {
           locale: {
             en: {
-              name: 'Cloudflare'
+              name: 'Webflow'
             }
           }
         }
@@ -144,7 +144,7 @@ window.CookieConsent.init({
         language: {
           locale: {
             en: {
-              name: 'Google Universal Analytics'
+              name: ''
             }
           }
         }
