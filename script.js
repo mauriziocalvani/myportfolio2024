@@ -92,7 +92,7 @@ function goToAnchor(hashId,margin_top_anchor_link){
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
     }, 1500, "easeOutQuint",function(){
-        $(".navigation-items").css("transform","none");
+       // $(".navigation-items").css("transform","none");
     });
 }
 
