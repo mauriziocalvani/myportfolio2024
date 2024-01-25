@@ -83,14 +83,12 @@ $(window).on('load', function(event){
     
     var hashId = window.location.hash;
     if (hashId.length > 1){
-        console.log("in the load listener and hashId = " + hashId)
         goToAnchor(hashId,0);
     }
 })
 
 function goToAnchor(hashId,margin_top_anchor_link){
     var scrollTopPx= jQuery(hashId).position().top - margin_top_anchor_link+'px';
-    console.log("hashId = " + hashId + " and scrollTopPx = " + scrollTopPx)
     jQuery('html,body').animate({
         scrollTop: scrollTopPx
     }, 1500, "easeOutQuint",function(){
