@@ -84,3 +84,8 @@ a:hover {
   width:24px!important;
   height:24px!important;
 }
+
+#cconsent-modal .ccm__content > .ccm__content__body .ccm__tabgroup.checked-5jhk .ccm__tab-head::before {
+  font-size: 0.85em!important;
+  padding-left: 2px!important;
+}
