@@ -37,4 +37,16 @@ a:hover {
 #cconsent-bar button {
   background-color: #66ca43;
   border-radius: 20px;
+  padding: 10px 20px;
+}
+
+#cconsent-modal .ccm__footer button {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#cconsent-bar,#cconsent-modal{
+  font-family: Switzer,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
 }
