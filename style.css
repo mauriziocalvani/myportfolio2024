@@ -93,3 +93,17 @@ a:hover {
 #cconsent-modal .ccm__content > .ccm__content__body .ccm__tab-content p {
   font-size: 14px!important;
 }
+
+.ccm__tabgroup.preference.ccm__tabgroup--open,
+.ccm__tabgroup.marketing.ccm__tabgroup--open,
+.ccm__tabgroup.performance.ccm__tabgroup--open{
+  display: none!important;
+}
+
+#cconsent-modal .ccm__content {
+  background-color: #fff!important;
+}
+
+#cconsent-modal .ccm__content {
+  min-height: 400px!important;
+}
