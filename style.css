@@ -29,3 +29,12 @@ z-index:87!important;
 a:hover {
   color: #fff!important;
 }
+
+#cconsent-bar a {
+  display: inline;
+}
+
+#cconsent-bar button {
+  background-color: #66ca43;
+  border-radius: 20px;
+}
