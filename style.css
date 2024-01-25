@@ -94,9 +94,9 @@ a:hover {
   font-size: 14px!important;
 }
 
-.ccm__tabgroup.preference.ccm__tabgroup--open,
-.ccm__tabgroup.marketing.ccm__tabgroup--open,
-.ccm__tabgroup.performance.ccm__tabgroup--open{
+.ccm__tabgroup.preference,
+.ccm__tabgroup.marketing,
+.ccm__tabgroup.performance{
   display: none!important;
 }
 
