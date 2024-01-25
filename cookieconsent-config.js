@@ -119,7 +119,7 @@ window.CookieConsent.init({
         search: 'localcookie',
         cookies: [
           {
-            name: '_cfuid',
+            name: 'wf_auth',
             domain: `.${window.location.hostname}`
           }
         ],
