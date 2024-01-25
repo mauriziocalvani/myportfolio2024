@@ -114,4 +114,8 @@ div.footer-wrap a:hover {
   h1 {
     font-size:60px!important;
   }
+
+  .heading-jumbo.home-page {
+    font-size: 80px!important;
+  }
 }
