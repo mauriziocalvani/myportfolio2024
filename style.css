@@ -43,38 +43,38 @@ a:hover {
 }
 
 #cconsent-modal .ccm__footer button {
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 10px 20px!important;
+  border-radius: 20px!important;
 }
 
 #cconsent-bar,#cconsent-modal{
-  font-family: Switzer,sans-serif;
-  font-size: 16px;
-  font-weight: normal;
+  font-family: "Switzer",sans-serif!important;
+  font-size: 16px!important;
+  font-weight: normal!important;
 }
 
 #cconsent-modal {
-  color: #000;
-  line-height: 21px;
+  color: #000!important;
+  line-height: 21px!important;
 }
 
 #cconsent-modal .ccm__content > .ccm__content__heading {
-  background-color: #fff;
+  background-color: #fff!important;
 }
 
 #cconsent-modal .ccm__footer {
-  background-color: #fff;
+  background-color: #fff!important;
 }
 
 cconsent-modal .ccm__footer button#ccm__footer__consent-modal-submit {
-  background-color: #666;
+  background-color: #666!important;
 }
 
 #cconsent-modal .ccm__content > .ccm__content__heading .ccm__cheading__close {
-  color: #000;
-  font-size: 20px;
+  color: #000!important;
+  font-size: 20px!important;
 }
 
 #cconsent-modal .ccm__content {
-  border-radius: 20px;
+  border-radius: 20px!important;
 }
