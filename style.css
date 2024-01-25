@@ -30,6 +30,8 @@ a:hover {
   color: #fff!important;
 }
 
+/* cookie modal */
+
 #cconsent-bar a {
   display: inline;
 }
@@ -49,4 +51,30 @@ a:hover {
   font-family: Switzer,sans-serif;
   font-size: 16px;
   font-weight: normal;
+}
+
+#cconsent-modal {
+  color: #000;
+  line-height: 21px;
+}
+
+#cconsent-modal .ccm__content > .ccm__content__heading {
+  background-color: #fff;
+}
+
+#cconsent-modal .ccm__footer {
+  background-color: #fff;
+}
+
+cconsent-modal .ccm__footer button#ccm__footer__consent-modal-submit {
+  background-color: #666;
+}
+
+#cconsent-modal .ccm__content > .ccm__content__heading .ccm__cheading__close {
+  color: #000;
+  font-size: 20px;
+}
+
+#cconsent-modal .ccm__content {
+  border-radius: 20px;
 }
