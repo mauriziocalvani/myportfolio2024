@@ -107,3 +107,11 @@ div.footer-wrap a:hover {
 #cconsent-modal .ccm__content {
   min-height: auto!important;
 }
+
+
+/* On screens that are > 1024 and < 1100 */
+@media screen and (min-width: 1024px) and (max-width: 1099px) {
+  h1 {
+    font-size:90px;
+  }
+}
