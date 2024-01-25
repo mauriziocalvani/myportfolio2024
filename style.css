@@ -94,11 +94,7 @@ a:hover {
   font-size: 14px!important;
 }
 
-.ccm__tabgroup.preference,
-.ccm__tabgroup.marketing,
-.ccm__tabgroup.performance{
-  display: none!important;
-}
+
 
 #cconsent-modal .ccm__content {
   background-color: #fff!important;
