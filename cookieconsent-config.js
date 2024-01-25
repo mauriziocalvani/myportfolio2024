@@ -37,7 +37,7 @@ window.CookieConsent.init({
           locale: {
             en: {
               name: 'Essential Cookies',
-              description: 'These cookies are essential for you to browse the website and use its features so they can\'t be turned off.'
+              description: 'These cookies are essential for you to browse the website and use its features so they can\'t be turned off. The only one used on this website is from Webflow and is called "wf_auth".'
             }
           }
         }
