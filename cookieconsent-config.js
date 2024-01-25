@@ -82,37 +82,6 @@ window.CookieConsent.init({
         }
       }
     },
-    services: {
-      hubspot: {
-        category: 'marketing',
-        type: 'dynamic-script', // dynamic-script, script-tag, wrapped, localcookie
-        search: 'js.hs',
-        language: {
-          locale: {
-            en: {
-              name: '',
-            }
-          }
-        }
-      },
-      analytics: {
-        category: 'performance',
-        type: 'dynamic-script',
-        search: 'analytics',
-        cookies: [
-          {
-            name: '_gid',
-            domain: `.${window.location.hostname}`
-          }
-        ],
-        language: {
-          locale: {
-            en: {
-              name: ''
-            }
-          }
-        }
-      },
       webflow: {
         category: 'essential',
         type: 'localcookie',
@@ -130,24 +99,6 @@ window.CookieConsent.init({
             }
           }
         }
-      },
-      analytics_universal: {
-        category: 'performance',
-        type: 'localcookie',
-        search: 'localcookie',
-        cookies: [
-          {
-            name: /^_ga/,
-            domain: `.${window.location.hostname}`
-          }
-        ],
-        language: {
-          locale: {
-            en: {
-              name: ''
-            }
-          }
-        }
       }
     }
-  });
+  );
