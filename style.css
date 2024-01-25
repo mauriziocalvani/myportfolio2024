@@ -25,3 +25,7 @@ z-index:87!important;
   text-decoration-thickness: 1.5px;
   text-underline-offset:2px;
 }
+
+a:hover {
+  color: #fff!important;
+}
