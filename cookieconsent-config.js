@@ -4,7 +4,7 @@ window.CookieConsent.init({
       barTextColor: '#FFF',
       barMainButtonColor: '##66ca43',
       barMainButtonTextColor: '#fff',
-      modalMainButtonColor: '##66ca43',
+      modalMainButtonColor: '#66ca43',
       modalMainButtonTextColor: '#FFF',
     },
     language: {
