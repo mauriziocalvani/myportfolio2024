@@ -105,5 +105,5 @@ a:hover {
 }
 
 #cconsent-modal .ccm__content {
-  min-height: 400px!important;
+  min-height: auto!important;
 }
