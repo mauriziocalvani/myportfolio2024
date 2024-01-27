@@ -80,8 +80,8 @@ $(document).ready(function () {
     $("img.close-video-full-screen").on("mouseleave", function (event) {
         event.stopPropagation();
         // reset the z-index of the cursor after the video modal closes
-        $(".modal-video-container video").trigger("stop");
-        console.log("stop audio video");
+        $(".modal-video-container video").trigger("pause");
+        console.log("pause audio video");
     });
     
 });
