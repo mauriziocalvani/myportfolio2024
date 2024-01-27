@@ -75,12 +75,12 @@ $(document).ready(function () {
         // play modal video
         $(".modal-video-container video").delay(500).trigger("play");
     });
-   /*
+   
     $("img.close-video-full-screen").on("click", function (event) {
         event.stopPropagation();
         // pause modal video
         $(".modal-video-container video").trigger("pause");
-    }); */
+    });
     
 });
 
