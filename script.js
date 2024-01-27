@@ -72,16 +72,14 @@ $(document).ready(function () {
     
     $(".cont-link").on("mouseleave", function (event) {
         event.stopPropagation();
-        // in this way the cursor will be visible in the video modal
-        $(".modal-video-container video").trigger("play");
-        console.log("video play mouseleave");
+        // play modal video
+        $(".modal-video-container video").delay(500).trigger("play");
     });
    
     $("img.close-video-full-screen").on("mouseleave", function (event) {
         event.stopPropagation();
-        // reset the z-index of the cursor after the video modal closes
+        // pause modal video
         $(".modal-video-container video").trigger("pause");
-        console.log("pause audio video");
     });
     
 });
