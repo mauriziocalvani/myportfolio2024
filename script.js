@@ -82,6 +82,7 @@ $(document).ready(function () {
         $(".modal-video-container video").trigger("pause");
         var cloneVdeo = $(".modal-video-container video").clone()
         $(".modal-video-container video").remove();
+        cloneVdeo.appendTo( ".modal-video-container .html-embed.w-embed" );
     });
     
 });
