@@ -76,7 +76,7 @@ $(document).ready(function () {
         $(".modal-video-container video").delay(500).trigger("play");
     });
    
-    $("img.close-video-full-screen, .modal-video-container").on("click", function (event) {
+    $("img.close-video-full-screen").on("click", function (event) {
         event.stopPropagation();
         // pause modal video
         $(".modal-video-container video").trigger("pause");
