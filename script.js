@@ -69,6 +69,7 @@ $(document).ready(function () {
             }
         });
     });
+    /*
     $(".cont-link").on("click", function (event) {
         event.stopPropagation();
         // in this way the cursor will be visible in the video modal
@@ -82,6 +83,7 @@ $(document).ready(function () {
         $(".wrapper-cursor").css("z-index",2);
         console.log("z-index 2");
     });
+    */
 });
 
 $(window).on('load', function(event){
