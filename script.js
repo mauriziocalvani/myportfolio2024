@@ -69,20 +69,6 @@ $(document).ready(function () {
             }
         });
     });
-
-    $("a.open-video-full-screen").on("click", function (event) {
-        event.stopPropagation();
-        // in this way the cursor will be visible in the video modal
-        $(".wrapper-cursor").css("z-index","92");
-        console.log("z-index 92");
-    });
-    
-    $("img.close-video-full-screen").on("click", function (event) {
-        event.stopPropagation();
-        // reset the z-index of the cursor after the video modal closes
-        $(".wrapper-cursor").css("z-index","2");
-        console.log("z-index 2");
-    });
 });
 
 $(window).on('load', function(event){
@@ -110,6 +96,19 @@ $(window).on('load', function(event){
     if (hashId.length > 1){
         goToAnchor(hashId,0);
     }
+    $("a.open-video-full-screen").on("click", function (event) {
+        event.stopPropagation();
+        // in this way the cursor will be visible in the video modal
+        $(".wrapper-cursor").css("z-index","92");
+        console.log("z-index 92");
+    });
+    
+    $("img.close-video-full-screen").on("click", function (event) {
+        event.stopPropagation();
+        // reset the z-index of the cursor after the video modal closes
+        $(".wrapper-cursor").css("z-index","2");
+        console.log("z-index 2");
+    });
 })
 
 function goToAnchor(hashId,margin_top_anchor_link){
