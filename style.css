@@ -26,6 +26,10 @@ z-index:87!important;
   text-underline-offset:2px;
 }
 
+div.footer-wrap a:hover {
+  color: #66ca43!important;
+}
+
 div.footer-wrap .text-block-7 a:hover {
   color: #fff!important;
 }
