@@ -73,7 +73,7 @@ $(document).ready(function () {
     $("a.open-video-full-screen").on("mouseleave", function (event) {
         event.stopPropagation();
         // play modal video
-        $(".modal-video-container video").delay(100).trigger("play");
+        $(".modal-video-container video").trigger("play");
     });
    
     $("img.close-video-full-screen").on("mouseleave", function (event) {
