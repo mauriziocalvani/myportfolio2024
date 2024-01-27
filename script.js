@@ -70,11 +70,11 @@ $(document).ready(function () {
         });
     });
     
-    $(".cont-link").on("click", function (event) {
+    $(".cont-link").on("mouseleave", function (event) {
         event.stopPropagation();
         // in this way the cursor will be visible in the video modal
         $(".modal-video-container video").trigger("play");
-        console.log("video play");
+        console.log("video play mouseleave");
     });
     /*
     $("img.close-video-full-screen").on("click", function (event) {
