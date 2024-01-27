@@ -69,7 +69,7 @@ $(document).ready(function () {
             }
         });
     });
-    
+    /*
     $("a.open-video-full-screen").on("mouseleave", function (event) {
         event.stopPropagation();
         // play modal video
@@ -85,6 +85,7 @@ $(document).ready(function () {
         $(".modal-video-container video").remove();
         cloneVdeo.appendTo( ".modal-video-container .html-embed.w-embed" );
     });
+    */
     
 });
 

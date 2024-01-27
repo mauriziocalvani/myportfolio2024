@@ -111,7 +111,9 @@ div.footer-wrap a:hover {
 .w-background-video>video{
   z-index: 0!important;
 }
-
+.w-background-video {
+  aspect-ratio: 16/9;
+}
 
 /* On screens that are > 1024 and < 1100 */
 @media screen and (min-width: 1024px) and (max-width: 1099px) {
