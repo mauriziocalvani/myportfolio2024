@@ -76,12 +76,12 @@ $(document).ready(function () {
         $(".modal-video-container video").trigger("play");
         console.log("video play mouseleave");
     });
-    /*
-    $("img.close-video-full-screen").on("click", function (event) {
+   
+    $("img.close-video-full-screen").on("mouseleave", function (event) {
         event.stopPropagation();
         // reset the z-index of the cursor after the video modal closes
-        $(".wrapper-cursor").css("z-index",2);
-        console.log("z-index 2");
+        $(".modal-video-container video").trigger("stop");
+        console.log("stop audio video");
     });
     */
 });
