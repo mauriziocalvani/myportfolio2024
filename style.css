@@ -114,11 +114,13 @@ div.footer-wrap a:hover {
 .w-background-video {
   aspect-ratio: 16/9;
   height: auto;
+  width: 100%;
 } 
 
 .media-container .w-background-video, .media-container img {
   aspect-ratio: 4/2.7;
   height: auto;
+  width: 100%;
 }
 
 /* On screens that are > 1024 and < 1100 */
