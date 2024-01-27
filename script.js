@@ -80,7 +80,8 @@ $(document).ready(function () {
         event.stopPropagation();
         // pause modal video
         $(".modal-video-container video").trigger("pause");
-        $(".modal-video-container video").empty();
+        var cloneVdeo = $(".modal-video-container video").clone()
+        $(".modal-video-container video").remove();
     });
     
 });
