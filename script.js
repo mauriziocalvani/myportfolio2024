@@ -73,7 +73,7 @@ $(document).ready(function () {
     $(".cont-link").on("click", function (event) {
         event.stopPropagation();
         // in this way the cursor will be visible in the video modal
-        $(".modal-video-container video").play();
+        $(".modal-video-container video").trigger("play");
         console.log("video play");
     });
     /*
