@@ -83,7 +83,7 @@ $(document).ready(function () {
         $(".modal-video-container video").trigger("stop");
         console.log("stop audio video");
     });
-    */
+    
 });
 
 $(window).on('load', function(event){
