@@ -70,14 +70,14 @@ $(document).ready(function () {
         });
     });
 
-    $(".open-vide0-full-screen").on("click", function (event) {
+    $("a.open-video-full-screen").on("click", function (event) {
         event.stopPropagation();
         // in this way the cursor will be visible in the video modal
         $(".wrapper-cursor").css("z-index","92");
         console.log("z-index 92");
     });
     
-    $(".close-video-full-screen").on("click", function (event) {
+    $("img.close-video-full-screen").on("click", function (event) {
         event.stopPropagation();
         // reset the z-index of the cursor after the video modal closes
         $(".wrapper-cursor").css("z-index","2");
