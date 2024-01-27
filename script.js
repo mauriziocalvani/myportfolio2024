@@ -96,7 +96,8 @@ $(window).on('load', function(event){
     if (hashId.length > 1){
         goToAnchor(hashId,0);
     }
-    $(".cont-link").on("click", function (event) {
+    $("a.open-video-full-screen").on("click", function (event) {
+        event.stopPropagation();
         // in this way the cursor will be visible in the video modal
         $(".wrapper-cursor").css("z-index",92);
         console.log("z-index 92");
