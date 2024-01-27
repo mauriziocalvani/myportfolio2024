@@ -80,6 +80,7 @@ $(document).ready(function () {
         event.stopPropagation();
         // pause modal video
         $(".modal-video-container video").trigger("pause");
+        $(".modal-video-container video").empty();
     });
     
 });
