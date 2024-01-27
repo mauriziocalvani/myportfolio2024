@@ -116,7 +116,7 @@ div.footer-wrap a:hover {
   height: auto;
 } 
 
-.media-container .w-background-video {
+.media-container .w-background-video, .media-container img {
   aspect-ratio: 4/2.7;
   height: auto;
 }
