@@ -13,7 +13,7 @@ window.CookieConsent.init({
         en: {
             barMainText: 'We use cookies to improve your online experience and to analyze site traffic. For more information, please see the "Cookies" section of our ',
             barPrivacyLinkText: 'Privacy Policy.',
-            barPrivacyLink: 'https://uploads-ssl.webflow.com/65ae3ea9c2b3ea1f578ef324/65b66a55b51b72c751271004_mauriziocalvani-privacy-policy-2024-v2.pdf',
+            barPrivacyLink: 'https://uploads-ssl.webflow.com/65ae3ea9c2b3ea1f578ef324/65b683917b861e9ce1a6445c_mauriziocalvani-privacy-policy-2024-v3.pdf',
             barAdditionalText: ' By clicking "Accept All Cookies" you are consenting to our use of cookies. You can change your cookie settings or withdraw your consent any time by clicking on "Cookie Settings" below.',
             barLinkSetting: 'Cookie Settings',
             barBtnAcceptAll: 'Accept All Cookies',
