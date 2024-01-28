@@ -13,6 +13,7 @@ $(document).ready(function () {
       
     if (isMobile()) {
         console.log("Mobile device detected");
+        $(".wrapper-cursor").css("display","none");
     } else {
         console.log("Desktop device detected");
     }
