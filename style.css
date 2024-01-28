@@ -1,12 +1,12 @@
-*::selection { 
+*::selection {
 	background: #66ca43; 
 	color: #fff; 
 } 
 
-.leftcolumn-megamenu::selection { 
+.leftcolumn-megamenu::selection {
   background: #fff; 
   color: #66ca43;
-} 
+}
 
 .cursor.open-project{
 width:120px!important;
