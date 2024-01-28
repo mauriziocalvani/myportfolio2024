@@ -3,9 +3,9 @@
 	color: #fff; 
 } 
 
-.container-mega-menu::selection { 
-	background: #fff; 
-	color: #66ca43;
+.leftcolumn-megamenu::selection { 
+  background: #fff; 
+  color: #66ca43;
 } 
 
 .cursor.open-project{
