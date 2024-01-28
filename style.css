@@ -3,7 +3,7 @@
 	color: #fff; 
 } 
 
-.mega-menu::selection { 
+.container-mega-menu::selection { 
 	background: #fff; 
 	color: #66ca43;
 } 
