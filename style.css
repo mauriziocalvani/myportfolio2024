@@ -2,6 +2,12 @@
 	background: #66ca43; 
 	color: #fff; 
 } 
+
+.mega-menu::selection { 
+	background: #fff; 
+	color: #66ca43;
+} 
+
 .cursor.open-project{
 width:120px!important;
 height:120px!important;
