@@ -12,10 +12,10 @@ $(document).ready(function () {
     }
       
     if (isMobile()) {
-        console.log("Mobile device detected");
+        //console.log("Mobile device detected");
         $(".wrapper-cursor").css("display","none");
     } else {
-        console.log("Desktop device detected");
+        //console.log("Desktop device detected");
     }
 
     var contact_form_text_field = $(".text-field");
