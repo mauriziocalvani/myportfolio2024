@@ -145,3 +145,10 @@ div.footer-wrap .text-block-7 a:hover {
   }
   
 }
+
+/* On screens that are > 1024 and < 1100 */
+@media screen and (min-width: 320px) and (max-width: 530px) {
+  .for-more-experience-text{
+    display:block!important;
+  }
+}
