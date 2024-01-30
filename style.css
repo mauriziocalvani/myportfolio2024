@@ -161,3 +161,22 @@ div.footer-wrap .text-block-7 a:hover {
     font-size:83px!important;
   }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+  .for-more-experience-text{
+    display:block!important;
+  }
+
+  .heading-jumbo.home-page {
+    font-size:83px!important;
+  }
+  .my-resume{
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 520px) {
+  .my-resume{
+    padding-left: 0px;
+  }
+}
