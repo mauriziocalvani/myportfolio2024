@@ -1,5 +1,5 @@
-body{
-  scrollbar-color: #66ca43 #66ca43;
+body::-webkit-scrollbar-thumb {
+  background-color: #66ca43;    /* color of the scroll thumb */
 }
 
 *::selection {
