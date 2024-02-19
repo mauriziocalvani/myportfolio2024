@@ -1,6 +1,6 @@
 /* Style the scrollbar background */
 ::-webkit-scrollbar {
-  background: white;
+  background: transparent;
   width: 8px;
 }
 
@@ -12,7 +12,7 @@
 
 /* Firefox */
 html {
-  scrollbar-color: #66ca43 white;
+  scrollbar-color: #66ca43 transparent;
   scrollbar-width: 8px;
 }
 
