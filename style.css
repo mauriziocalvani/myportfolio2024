@@ -1,5 +1,19 @@
+/* Style the scrollbar background */
+::-webkit-scrollbar {
+  background: white;
+  width: 8px;
+}
+
+/* Style the scrollbar handle */
 ::-webkit-scrollbar-thumb {
   background: #66ca43;
+  width: 8px;
+}
+
+/* Firefox */
+html {
+  scrollbar-color: #66ca43 white;
+  scrollbar-width: 8px;
 }
 
 *::selection {
