@@ -1,5 +1,5 @@
-body::-webkit-scrollbar-thumb {
-  background-color: #66ca43;    /* color of the scroll thumb */
+::-webkit-scrollbar-thumb {
+  background: #66ca43;
 }
 
 *::selection {
@@ -31,7 +31,7 @@ z-index:87!important;
 }
 
 .mega-menu-link:hover{
-	text-decoration:underline;
+  text-decoration:underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset:2px;
 }
