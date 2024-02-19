@@ -1,20 +1,20 @@
 /* Style the scrollbar background */
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   background: transparent;
   width: 8px;
-}
+}*/
 
 /* Style the scrollbar handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: #66ca43;
   width: 8px;
-}
+}*/
 
 /* Firefox */
-html {
+/* html {
   scrollbar-color: #66ca43 transparent;
   scrollbar-width: 8px;
-}
+}*/
 
 *::selection {
 	background: #66ca43; 
