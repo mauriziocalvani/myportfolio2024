@@ -1,3 +1,7 @@
+body{
+  scrollbar-color: #66ca43 #66ca43;
+}
+
 *::selection {
 	background: #66ca43; 
 	color: #fff; 
